@@ -50,8 +50,6 @@ if len(set(labels)) > 1:
     print(f"Quality: {davies_bouldin_score(X, labels)}")
     print("Silhouette Coefficient: %0.3f" % silhouette_score(X, labels))
     print("Calinski-Harabasz score: %0.3f" % calinski_harabasz_score(X, labels))
-print(f"n_clusters_: {len(set(labels)) - (1 if -1 in labels else 0)}")
-print(f"n_noise_: {list(labels).count(-1)}")
 
 plt.scatter(X[:, 0], X[:, 1], color='k', s=3., label='Data points')
 
