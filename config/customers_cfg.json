@@ -1,0 +1,8 @@
+{
+	"x": [
+		"Annual Income (k$)",
+		"Spending Score (1-100)"
+	],
+	"x_plot": "Annual Income (k$)",
+	"y_plot": "Spending Score (1-100)"
+}

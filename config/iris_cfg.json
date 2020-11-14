@@ -1,0 +1,8 @@
+{
+	"x": [
+		"petal_length",
+		"petal_width"
+	],
+	"x_plot":"petal_length",
+	"y_plot":"petal_width"
+}
